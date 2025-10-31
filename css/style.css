@@ -57,5 +57,4 @@ div[data-tf-live] > div {
     border: 1px solid #e0e0e0 !important;
     overflow: hidden !important;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18) !important;
-    transition: all 0.3s ease !important;
 }
