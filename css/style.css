@@ -1,0 +1,61 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    background: linear-gradient(135deg, #3c5225, #6c7858 60%);
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 9px 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-container {
+    max-width: 520px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.text-inter h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+div[data-tf-live] {
+    all: initial !important;
+    display: block !important;
+}
+
+div[data-tf-live] > div {
+    background: #ffffff !important;
+    border-radius: 16px !important;
+    border: 1px solid #e0e0e0 !important;
+    overflow: hidden !important;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18) !important;
+    transition: all 0.3s ease !important;
+}
